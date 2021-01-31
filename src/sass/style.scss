@@ -4,4 +4,46 @@
     font-family: 'Mulish', sans-serif;
     margin: 0;
     padding: 0;
+    :focus {
+        outline: none !important;
+    }
 }
+
+@import 'base/variables';
+@import 'blocks/hero';
+
+.my-button {
+    background: #C3AED6;
+    border-radius: 50px;
+    width: 169px;
+    height: 53px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    &:hover {
+        background-color: #8675A9;
+    }
+    &_nav {
+        padding: 0 39px;
+        width: 145px;
+        height: 39px;
+        border: 2px solid #C3AED6;
+        border-radius: 50px;
+        background-color: transparent;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 35px;
+        color: #C3AED6;
+        &:hover {
+            background-color: $maincolor;
+            color: white;
+        }
+    }
+    &_hero {
+        margin-top: 35px;
+    }
+}
+
+@import 'blocks/media';

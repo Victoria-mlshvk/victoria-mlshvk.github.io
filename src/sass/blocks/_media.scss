@@ -1,0 +1,227 @@
+@media (max-width: 1200px) {
+    .my-button {
+        &_hero {
+            margin-top: 22px;
+        }
+    }
+    .hero {
+        min-height: 720px;
+        &__title {
+            font-size: 40px;
+        }
+        &__subtitle {
+            margin-top: 10px;
+            font-size: 37px;
+            line-height: 45px;
+        }
+        &__img {
+            max-width: 540px;
+        }
+        &__social {
+            top: 300px;
+        }
+        &__nav-buttons {
+            bottom: 315px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .my-button {
+        width: 155px;
+        height: 45px;
+        &_nav {
+            width: 130px;
+            height: 35px;
+            padding: 0 30px;
+            line-height: 33px;
+        }
+        &_hero {
+            margin-top: 18px;
+        }
+    }
+    .hero {
+        min-height: 550px;
+        &__container {
+            padding-left: 79px;
+        }
+        &__navbar {
+            padding-top: 18px;
+            &__link {
+                margin-right: 10px;
+                font-size: 15px;
+                &_left {
+                    margin-right: 40px;
+                }
+            }
+            &__ul {
+                margin-right: 80px;
+            }
+        }
+        &__wrapper {
+            margin-top: 20px;
+        }
+        &__title {
+            font-size: 35px;
+        }
+        &__subtitle {
+            width: 294px;
+            margin-top: 5px;
+            font-size: 30px;
+            line-height: 40px;
+        }
+        &__img {
+            max-width: 540px;
+        }
+        &__social {
+            top: 215px;
+            &__link {
+                width: 18px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        &__nav-buttons {
+            bottom: 237px;
+            right: 27px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .hero__navbar-toggler,
+    .hero__navbar-toggler:focus,
+    .hero__navbar-toggler:active,
+    .hero__navbar-toggler-icon:focus {
+        outline: none;
+        border: none;
+        box-shadow: none;
+    }
+    .my-button {
+        width: 125px;
+        height: 38px;
+        font-size: 14px;
+        &_nav {
+            margin: 0 auto;
+            width: 105px;
+            height: 32px;
+            padding: 0 24px;
+            line-height: 30px;
+        }
+        &_hero {
+            margin-top: 14px;
+        }
+    }
+    .hero {
+        min-height: 470px;
+        &__container {
+            padding-left: 62px;
+        }
+        &__navbar {
+            &__hamburger {
+                height: 25px;
+                top: 20px;
+                right: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                span {
+                    display: block;
+                    background-color: #1C2363;;
+                    width: 30px;
+                    height: 3px;
+                    border-radius: 20%;
+                }
+            }
+            &__link {
+                margin-right: 0;
+                font-size: 15px;
+                &_left {
+                    margin-right: 0;
+                }
+            }
+            &__ul {
+                margin-right: 80px;
+            }
+        }
+        &__wrapper {
+            margin-top: 30px;
+        }
+        &__title {
+            font-size: 25px;
+            line-height: 29px;
+        }
+        &__subtitle {
+            width: 217px;
+            margin-top: 10px;
+            font-size: 20px;
+            line-height: 25px;
+        }
+        &__social {
+            height: 70px;
+            top: 185px;
+            &__link {
+                width: 15px;
+            }
+        }
+        &__nav-buttons {
+            bottom: 195px;
+            a {
+                display: block;
+                width: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .my-button {
+        width: 150px;
+        height: 42px;
+        font-size: 15px;
+        &_hero {
+            margin-top: 18px;
+        }
+        &_nav {
+            margin: 0 auto;
+            width: 105px;
+            height: 32px;
+            padding: 0 24px;
+            line-height: 30px;
+        }
+    }
+    .hero {
+        min-height: 820px;
+        text-align: center;
+        &__container {
+            padding: 0;
+        }
+        &__wrapper {
+            flex-direction: column;
+            margin-top: 50px;
+        }
+        &__title {
+            font-size: 30px;
+            line-height: 34px;
+        }
+        &__subtitle {
+            min-width: 217px;
+            margin: 14px auto 0 auto;
+            font-size: 24px;
+            line-height: 30px;
+        }
+        &__social {
+            display: none;
+        }
+        &__nav-buttons {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 374px) {
+    .hero {
+        min-height: 760px;
+    }
+}
