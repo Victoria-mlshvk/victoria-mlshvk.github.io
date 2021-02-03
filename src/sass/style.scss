@@ -11,7 +11,11 @@
 
 @import 'base/variables';
 @import 'blocks/hero';
+@import 'blocks/aboutme';
+@import 'blocks/skills';
+@import 'blocks/portfolio';
 
+//Buttons//
 .my-button {
     background: #C3AED6;
     border-radius: 50px;
@@ -20,8 +24,9 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: white;
     border: none;
+    transition: 0.5s all;
     &:hover {
         background-color: #8675A9;
     }
@@ -43,6 +48,53 @@
     }
     &_hero {
         margin-top: 35px;
+    }
+    &_portfolio {
+        margin-top: 25px;
+        margin-right: 18px;
+        width: 163px;
+        height: 49px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        border: 2px solid #8675A9;
+        box-sizing: border-box;
+        border-radius: 50px;
+        color: #8675A9;
+        background-color: transparent;
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+//Titles//
+.title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 55px;
+    color: #32254A;
+    &_skills{
+        position: relative;
+        z-index: 4;
+    }
+    &_portfolio {
+        text-align: center;
+        margin: 20px 0 80px;
+    }
+}
+
+.paragraph {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #32254A;
+    &_skills {
+        max-width: 467px;
+        margin: 10px auto 0;
+    }
+    &_portfolio {
+        margin-top: 25px;
     }
 }
 

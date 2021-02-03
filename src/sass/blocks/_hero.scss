@@ -2,17 +2,17 @@
     position: relative;
     min-height: 860px;
     background: $gradient;
-    &:before {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 120px;
-        background: url('../img/wave.svg') center center/cover no-repeat;
-        // background-size: cover;
-        // background-repeat: no-repeat;
-    }
+    // &:before {
+    //     content: '';
+    //     position: absolute;
+    //     bottom: 0;
+    //     left: 0;
+    //     width: 100%;
+    //     height: 120px;
+    //     background: url('../img/wave.svg') center center/cover no-repeat;
+    //     // background-size: cover;
+    //     // background-repeat: no-repeat;
+    // }
     &__container {
         padding-left: 99px;
     }
@@ -28,6 +28,7 @@
             line-height: 17px;
             color: #32254A;
             margin-right: 35px;
+            transition: 0.5s all;
             &_left {
                 margin-right: 133px;
             }
@@ -73,6 +74,7 @@
         flex-direction: column;
         &__link {
             img {
+                transition: 0.5s all;
                 &:hover {
                     transform: scale(1.5);
                 }
@@ -86,6 +88,7 @@
         right: 52px;
         bottom: 370px;
         a {
+            transition: 0.5s all;
             &:hover {
                 transform: scale(1.5);
             }
