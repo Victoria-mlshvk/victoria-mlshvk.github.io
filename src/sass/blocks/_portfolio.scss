@@ -1,10 +1,28 @@
 .portfolio {
+    padding: 170px 0 70px;
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0px;
+        width: 100%;
+        height: 256px;
+        background: url('../img/wave3.svg') center center/cover no-repeat;
+        z-index: 2;
+        // background-size: 100%;
+        // background-size: cover;
+        // background-repeat: no-repeat;
+    };
     &__item {
-        margin: 0 auto;
+        margin: 0 auto 93px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         max-width: 1105px;
+        &_last {
+            margin-bottom: 66px;
+        }
     }
     &__text {
         max-width: 467px;
@@ -16,7 +34,7 @@
         color: #32254A;
     }
     &__tags {
-        margin-top: 23px;
+        margin-top: 15px;
     }
     &__tag {
         padding: 4px 12px;

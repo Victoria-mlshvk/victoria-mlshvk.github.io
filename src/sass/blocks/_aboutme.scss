@@ -22,8 +22,14 @@
         justify-content: center;
         align-items: center;
     }
+    &__img {
+        min-width: 302px;
+        img {
+            width: 100%;
+        }
+    }
     &__text {
-        width: 446px;
+        max-width: 446px;
         text-align: center;
     }
 }

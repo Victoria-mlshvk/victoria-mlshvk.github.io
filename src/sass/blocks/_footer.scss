@@ -1,0 +1,47 @@
+.footer {
+    background: rgba($color: $maincolor, $alpha: 0.3);
+    padding: 20px 54px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        font-weight: 800;
+        font-size: 27px;
+        line-height: 34px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #32254A;
+    }
+    &__links {
+        width: 372px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 15px;
+        color: #32254A;
+        text-decoration: none;
+    }
+    &__social {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__text {
+        margin-bottom: 7px;
+        width: 139px;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 103.6%;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    &__media {
+        width: 88px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
