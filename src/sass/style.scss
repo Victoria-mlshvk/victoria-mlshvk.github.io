@@ -16,6 +16,7 @@
 @import 'blocks/portfolio';
 @import 'blocks/cta';
 @import 'blocks/footer';
+@import 'blocks/feedback';
 
 //Buttons//
 .my-button {
@@ -93,6 +94,9 @@
     &_portfolio {
         text-align: center;
         margin: 20px 0 80px;
+    }
+    &_feedback {
+        text-align: center;
     }
 }
 

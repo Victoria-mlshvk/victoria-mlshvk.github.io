@@ -221,7 +221,7 @@
             width: 105px;
             height: 32px;
             padding: 0 24px;
-            line-height: 30px;
+            line-height: 29px;
         }
         &_hero {
             margin-top: 14px;
@@ -357,7 +357,7 @@
             width: 105px;
             height: 32px;
             padding: 0 24px;
-            line-height: 30px;
+            line-height: 28px;
         }
     }
     .paragraph {
@@ -393,7 +393,7 @@
     }
     .about-me {
         &__wrapper {
-            align-items: flex-start;
+            flex-direction: column-reverse;
         }
         &__img {
             min-width: 192px;
