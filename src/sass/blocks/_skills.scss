@@ -3,6 +3,7 @@
     min-height: 580px;
     background: $gradientback;
     text-align: center;
+    z-index: 2;
     &:before {
         content: '';
         position: absolute;
