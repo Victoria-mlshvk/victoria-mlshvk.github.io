@@ -22,11 +22,13 @@
             max-width: 447px;
         }
         &__back {
+            opacity: 1;
             position: absolute;
             left: 300px;
             bottom: -200px;
         }
         &__next {
+            opacity: 1;
             position: absolute;
             left: 350px;
             bottom: -200px;

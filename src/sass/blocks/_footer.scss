@@ -8,6 +8,7 @@
         align-items: center;
     }
     &__logo {
+        cursor: pointer;
         width: 139px;
         font-weight: 800;
         font-size: 27px;
@@ -27,6 +28,9 @@
         line-height: 15px;
         color: #32254A;
         text-decoration: none;
+        &:hover {
+            color: rgba($color: #32254A, $alpha: 0.6);
+        }
     }
     &__social {
         display: flex;
@@ -40,6 +44,17 @@
         font-size: 13px;
         line-height: 103.6%;
         color: rgba(0, 0, 0, 0.5);
+        a {
+            width: 139px;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 103.6%;
+            color: rgba(0, 0, 0, 0.8);
+            text-decoration: none;
+            &:hover {
+                color: rgba($color: #32254A, $alpha: 0.6);
+            }
+        }
     }
     &__media {
         width: 88px;
