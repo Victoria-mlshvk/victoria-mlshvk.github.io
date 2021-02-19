@@ -17,6 +17,7 @@
 @import 'blocks/cta';
 @import 'blocks/footer';
 @import 'blocks/feedback';
+@import 'blocks/casestudy';
 
 //Buttons//
 .my-button {
@@ -115,6 +116,10 @@
     &_cta {
         margin: 19px auto 24px;
         max-width: 655px;
+    }
+    &_case-study {
+        width: 470px;
+        margin: 10px auto 0;
     }
 }
 

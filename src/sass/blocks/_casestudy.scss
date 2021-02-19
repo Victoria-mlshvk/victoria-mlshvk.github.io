@@ -1,0 +1,17 @@
+.case-study {
+    padding: 40px 0;
+    text-align: center;
+    background: #FFFCF7;
+    &__navbar {
+        background: #E4DDD7;
+        padding: 20px 0;
+    }
+    &__img {
+        margin-top: 40px;
+        width: 100%;
+        filter: drop-shadow(5px 4px 15px rgba(50, 37, 74, 0.25));
+        img {
+            width: 100%;
+        }
+    }
+}
