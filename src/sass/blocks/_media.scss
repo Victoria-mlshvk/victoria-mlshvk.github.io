@@ -206,7 +206,7 @@
         }
     }
     .feedback {
-        max-height: 440px;
+        min-height: 440px;
         padding: 50px 0;
         &__carousel__back, &__carousel__next {
             display: none;
