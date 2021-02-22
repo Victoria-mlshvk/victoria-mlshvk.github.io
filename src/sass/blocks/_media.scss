@@ -370,6 +370,17 @@
             margin-top: 30px;
             margin-right: 0;
         }
+        &__carousel {
+            max-width: 400px;
+            display: block;
+            height: auto;
+            min-height: 180px;
+            &__item {
+                max-width: 100%;
+                height: auto;
+                min-height: 180px;
+            }
+        }
     }
     .footer {
         &__links {
@@ -465,6 +476,11 @@
             width: 383px;
         }
     }
+    .feedback {
+        &__carousel {
+            max-width: 320px;
+        }
+    }
     .cta {
         padding: 35px 0;
     }
@@ -548,6 +564,11 @@
     .portfolio {
         &__img {
             width: 283px;
+        }
+    }
+    .feedback {
+        &__carousel {
+            max-width: 300px;
         }
     }
 }}

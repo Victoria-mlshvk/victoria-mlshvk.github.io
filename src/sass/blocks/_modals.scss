@@ -1,0 +1,11 @@
+.my-modal {
+    &__button {
+        background-color: $maincolor;
+        border: none;
+        &_ghost {
+            background-color: transparent;
+            border: 2px solid #C3AED6;
+            color: #C3AED6;
+        }
+    }
+}

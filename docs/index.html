@@ -18,6 +18,26 @@
     <script>new WOW().init();</script>
 </head>
 <body>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Hi there!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="modal__message">Send me an email and I'll get back to you as soon as I can:)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="my-modal__button my-modal__button_ghost btn btn-secondary" data-bs-dismiss="modal">Maybe later</button>
+        <button onclick="window.location.href='mailto: victoria.mlshvsk@gmail.com';" type="button" class="my-modal__button btn btn-primary">Sure! Bring it on</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <section id="hero" class="hero">
         <div class="container hero__container">
             <nav class="hero__navbar navbar navbar-expand-md">
@@ -54,8 +74,9 @@
                 <div class="hero__left animate__animated animate__fadeInDown animate__slow">
                     <h1 class="hero__title">Hello, I’m Victoria</h1>
                     <div class="hero__subtitle">UX/UI Designer & Developer</div>
-                    <button onclick="window.location.href='mailto: victoria.mlshvsk@gmail.com';" class="my-button my-button_hero">Let’s connect!</button>
+                    <button type="button" class="my-button my-button_hero" data-bs-toggle="modal" data-bs-target="#exampleModal">Let’s connect!</button>
                 </div>
+
 
                 <div class="hero__right animate__animated animate__slideInRight animate__slow">
                     <div class="hero__img">
@@ -256,7 +277,7 @@
           </div>
           
           <div id="carouselExampleControls" class="carousel slide feedback__carousel" data-bs-ride="carousel" data-bs-interval="false">
-            <div class="carousel-inner">
+            <div class="carousel-inner feedback__carousel__inner">
               <div class="feedback__carousel__item carousel-item active">
                 <p class="paragraph paragraph_feedback"> Victoria created a brand logo, instagram highlight pics and a business card design for our studio. We totally enjoyed working with her - the work was done on time, all the suggestions we made were taken into consideration and the final result was fabulous. We felt that we were looking in the same direction and Victoria completely understood our needs. She’s very responsible and skilled, so we highly recommend her as a designer!</p>
                 <div class="feeback__name">Anastasia Babuskina</div>
@@ -291,7 +312,7 @@
       <div class="container">
         <h2 class="title title_cta">Let’s create something wonderful together</h2>
         <p class="paragraph paragraph_cta">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-        <button onclick="window.location.href='mailto: victoria.mlshvsk@gmail.com';" class="my-button my-button_cta">Let’s connect!</button>
+        <button type="button" class="my-button my-button_cta" data-bs-toggle="modal" data-bs-target="#exampleModal">Let’s connect!</button>
       </div>
     </section>
 
