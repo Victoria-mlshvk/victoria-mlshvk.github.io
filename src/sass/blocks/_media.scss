@@ -215,6 +215,11 @@
             max-width: 335px;
             margin-right: 25px;
         }
+        &__carousel {
+            &__indicators {
+                display: block;
+            }
+        }
     }
     .cta {
         padding: 45px 0;

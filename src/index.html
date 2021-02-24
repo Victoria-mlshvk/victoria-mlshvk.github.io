@@ -277,6 +277,11 @@
           </div>
           
           <div id="carouselExampleControls" class="carousel slide feedback__carousel" data-bs-ride="carousel" data-bs-interval="false">
+            <div class="carousel-indicators feedback__carousel__indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active feedback__carousel__indicators__button" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="feedback__carousel__indicators__button" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="feedback__carousel__indicators__button" aria-label="Slide 3"></button>
+            </div>
             <div class="carousel-inner feedback__carousel__inner">
               <div class="feedback__carousel__item carousel-item active">
                 <p class="paragraph paragraph_feedback"> Victoria created a brand logo, instagram highlight pics and a business card design for our studio. We totally enjoyed working with her - the work was done on time, all the suggestions we made were taken into consideration and the final result was fabulous. We felt that we were looking in the same direction and Victoria completely understood our needs. She’s very responsible and skilled, so we highly recommend her as a designer!</p>
@@ -294,12 +299,12 @@
                 <div class="feeback__work">Co-founder of “Teplo Space”</div>
               </div>
             </div>
-            <a class="carousel-control-prev feedback__carousel__back" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+            <a class="carousel-control-prev feedback__carousel__back" href="#carouselExampleControls" role="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
               <img src="icons/back.svg" alt="back">
               <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                <span class="visually-hidden">Previous</span> -->
             </a>
-            <a class="carousel-control-next feedback__carousel__next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+            <a class="carousel-control-next feedback__carousel__next" href="#carouselExampleControls" role="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
               <img src="icons/forward.svg" alt="next">
               <span class="visually-hidden">Next</span>
             </a>

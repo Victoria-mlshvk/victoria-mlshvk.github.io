@@ -46,6 +46,20 @@
                 left: 350px;
                 bottom: -322px;
             }
+            &__indicators {
+                display: none;
+                .active {
+                    background-color: rgba($color: #B9CEC9, $alpha: 1.0);
+                }
+                &__button {
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 100%;
+                    background-color: rgba($color: #B9CEC9, $alpha: 0.7);
+                    border: none;
+                }
+            }
+                
         }
     &__text {
         max-width: 447px;
